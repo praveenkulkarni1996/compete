@@ -33,3 +33,6 @@
 
 # Visual Studio
 .vscode
+
+# Test Input
+input.txt
