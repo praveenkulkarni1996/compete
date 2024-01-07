@@ -33,6 +33,7 @@ def write(snippets: dict[str, list[str]]):
         key = filename.removesuffix(".cpp").upper()
         print(f'\t"{key}": {{')
         print('\t\t"scope": "cpp",')
+        print(f'\t\t"prefix": "{key}",')
         print('\t\t"body": [')
         for line in lines:
             print(f'\t\t\t"{line}"')
